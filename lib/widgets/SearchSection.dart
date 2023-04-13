@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:some_design/components/customImage.dart';
-import 'package:some_design/components/customText.dart';
+import 'package:some_design/reusable_widgets/customImage.dart';
+import 'package:some_design/reusable_widgets/customText.dart';
 import 'package:some_design/constants/imageconstants.dart';
 import 'package:some_design/utilize/AppLocalization.dart';
 
-import '../components/customsearch.dart';
 import '../constants/FontsConstants.dart';
+import '../reusable_widgets/customsearch.dart';
 
 class SearchSection extends StatelessWidget {
   const SearchSection({Key? key}) : super(key: key);
@@ -20,7 +20,7 @@ class SearchSection extends StatelessWidget {
           width: 10,
         ),
         Container(
-          color: Color(0xffF5F5F5),
+          color:const Color(0xffF5F5F5),
           width: 70,
           height: 36,
           child: Row(

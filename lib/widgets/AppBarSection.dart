@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:some_design/constants/FontsConstants.dart';
 import 'package:some_design/constants/imageconstants.dart';
+import 'package:some_design/reusable_widgets/customText.dart';
 
-import '../components/customImage.dart';
-import '../components/customText.dart';
+import '../reusable_widgets/customImage.dart';
 import '../utilize/AppLocalization.dart';
 
 class AppBarSection extends StatelessWidget {
