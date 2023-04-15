@@ -82,6 +82,8 @@ flutter:
     - assets/icons/ArriveTimeIcon.svg
     - assets/icons/DeliveryIcon.svg
     - assets/icons/RateIcon.svg
+    - assets/icons/SalaBuyIcon.svg
+    - assets/Images/LikesImages/LikesImage.jpg
 
 
 

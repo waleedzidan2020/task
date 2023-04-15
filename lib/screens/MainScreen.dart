@@ -1,6 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:some_design/widgets/LikesSection.dart';
 import 'package:some_design/widgets/MostDemandedSection.dart';
 import 'package:some_design/widgets/SearchSection.dart';
 import '../utilize/AppLocalization.dart';
@@ -54,8 +55,9 @@ class HomeScreen extends StatelessWidget {
                       ),
                       const MostDemandedSection(),
                       const SizedBox(
-                        height: 25,
+                        height: 20,
                       ),
+                     const LikeSection()
 
 
 

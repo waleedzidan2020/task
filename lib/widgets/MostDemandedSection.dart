@@ -23,7 +23,7 @@ class MostDemandedSection extends StatelessWidget {
           const SizedBox(
             height: 16,
           ),
-          ListItemMostDemanded()
+         const ListItemMostDemanded()
         ],
       ),
     );
