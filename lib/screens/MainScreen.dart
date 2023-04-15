@@ -52,7 +52,12 @@ class HomeScreen extends StatelessWidget {
                       const SizedBox(
                         height: 25,
                       ),
-                      const MostDemandedSection()
+                      const MostDemandedSection(),
+                      const SizedBox(
+                        height: 25,
+                      ),
+
+
 
                     ],
                   ),
