@@ -12,6 +12,7 @@ class ImageConstants{
  static List<String> categoryImages=["assets/Images/CategoryImages/quick_order.jpg","assets/Images/CategoryImages/resturants.jpg","assets/Images/CategoryImages/Grocery.jpg"];
  static List<String> reOrderImages=["assets/Images/ReOrderImages/re-orderImage2.jpg","assets/Images/ReOrderImages/re-orderImage1.jpg"];
  static List<String> mostDemandedImages=["assets/Images/MostDemandedImages/MostDemandedImage1.jpg","assets/Images/MostDemandedImages/MostDemandedImage2.jpg"];
+ static String LikesImages ="assets/Images/LikesImages/LikesImage.jpg" ;
 
 
 
