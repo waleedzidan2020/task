@@ -74,6 +74,14 @@ flutter:
     - assets/Images/CategoryImages/Grocery.jpg
     - assets/Images/CategoryImages/quick_order.jpg
     - assets/Images/CategoryImages/resturants.jpg
+    - assets/icons/re-orderIcon.svg
+    - assets/Images/ReOrderImages/re-orderImage1.jpg
+    - assets/Images/ReOrderImages/re-orderImage2.jpg
+    - assets/Images/MostDemandedImages/MostDemandedImage1.jpg
+    - assets/Images/MostDemandedImages/MostDemandedImage2.jpg
+    - assets/icons/ArriveTimeIcon.svg
+    - assets/icons/DeliveryIcon.svg
+    - assets/icons/RateIcon.svg
 
 
 

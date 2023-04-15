@@ -5,21 +5,22 @@ class CustomImage extends StatelessWidget {
       {Key? key,
       required this.Width,
       required this.imageurl,
-      required this.Height})
+      required this.Height, this.boxFit})
       : super(key: key);
   final String imageurl;
   final double Width;
   final double Height;
+  final BoxFit? boxFit;
 
   @override
   Widget build(BuildContext context) {
-    return Ink.image(
+    return Image.asset(
+      imageurl,
 
       height: Height,
       width: Width,
-      image: AssetImage(
-        imageurl,
-      ),
+      fit: boxFit,
+
     );
   }
 }

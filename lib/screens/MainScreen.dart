@@ -1,6 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:some_design/widgets/MostDemandedSection.dart';
 import 'package:some_design/widgets/SearchSection.dart';
 import '../utilize/AppLocalization.dart';
 import '../widgets/AppBarSection.dart';
@@ -47,7 +48,12 @@ class HomeScreen extends StatelessWidget {
                       const SizedBox(
                         height: 25,
                       ),
-                    const  ReOrderSection()
+                    const  ReOrderSection(),
+                      const SizedBox(
+                        height: 25,
+                      ),
+                      const MostDemandedSection()
+
                     ],
                   ),
                 ),
